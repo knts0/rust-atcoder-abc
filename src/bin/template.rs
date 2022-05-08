@@ -2,7 +2,8 @@ use proconio::input;
 
 fn main() {
     input! {
-        n: usize,
-        v: [i32; n],
     };
 }
+
+// 文字列をcharのVecで受け取りたいとき
+// v: proconio::marker::Chars,
